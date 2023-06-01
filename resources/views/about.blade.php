@@ -8,7 +8,7 @@
 </head>
 <body>
     @include('partials.header')
-<h1>about</h1>
+<h1>About</h1>
 <h3>dato 1</h3>
 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos eveniet atque, veniam ex porro corrupti amet pariatur expedita. Dignissimos pariatur suscipit accusamus ea expedita officia quia deserunt magnam aspernatur, illum provident quibusdam tempora, autem commodi quas repellendus eveniet iure consequatur?</p>
 <h3>dato 2</h3>
