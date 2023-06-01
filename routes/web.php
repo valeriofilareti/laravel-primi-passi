@@ -20,8 +20,16 @@ Route::get('/', function () {
     return view('home', compact('name'));
 }) -> name('home');
 
+
 Route::get('/about', function () {
-    return view('about');
+
+    $data = [
+        'data1' => 'dataX',
+        'data2' => 'dataY',
+        'data3' => 'dataZ'
+    ];
+
+    return view('about', $data);
 }) -> name('about');
 
 Route::get('/contacts', function () {
